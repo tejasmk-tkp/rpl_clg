@@ -1,0 +1,11 @@
+3c3,4
+< 	result = re.search(r"^([\w .]*), ([\w .]*)$",name)
+---
+> 	result = re.search(r"^([\w .-]*), ([\w .-]*)$",name)
+> 	print('the change')	
+6d6
+< 
+8c8
+< print('checking')
+---
+> 
