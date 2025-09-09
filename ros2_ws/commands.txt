@@ -1,0 +1,5 @@
+ros2 run turtlesim turtlesim_node - start a turtle node
+ros2 run turtlesim turtle_teleop_key - start a node to send commands to move the turtle in turtle sim node
+ros2 pkg create my_package --build-type ament_python --dependencies rclpy - create new ros package with python build type and rcply dependency
+colcon build - build all the packages in the ros workspace
+rqt_graph - visualize node interactions
