@@ -7,3 +7,11 @@ ros2 pkg create my_package --build-type ament_python --dependencies rclpy - crea
 colcon build - build all the packages in the ros workspace
 
 rqt_graph - visualize node interactions
+
+ros2 topic list - list all active topics
+
+ros2 topic echo <topic_name> - subscribe to topic
+
+ros2 topic info <topic_name> - show topic info
+
+ros2 interface show <interface> - display information of the interface
